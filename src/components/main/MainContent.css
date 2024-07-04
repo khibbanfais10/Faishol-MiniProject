@@ -1,0 +1,242 @@
+.container-header {
+  padding-top: 40px !important;
+  height: 951px;
+  /* width: 1351px; */
+  background-color: #3ec3dc;
+  background-image: url("/src/assets/119.jpg");
+  background-size: 1280px 597px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* /* max-width: 1351px; */
+}
+.new-headline {
+  color: #1c3c6e;
+  margin-top: -25px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+  line-height: 69px;
+  text-align: center;
+}
+.body1-regular {
+  color: #1c3c6e;
+  text-align: center;
+  max-width: 484px;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 22px;
+}
+.container-row {
+  margin: 15px auto;
+
+  justify-content: center;
+  position: relative;
+}
+.card-row {
+  display: flex;
+  max-width: 536px;
+  margin: 20px auto;
+
+  background-color: white;
+  /* justify-content: center; */
+  /* height: 143px; */
+  /* max-height: 143px; */
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.card-right-section {
+  /* border: 1px solid black; */
+  padding: 5px 5px;
+}
+.headline-card {
+  margin: 5px 5px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+  color: #3d3d3d;
+}
+
+.body-card {
+  margin: 5px 5px;
+  color: #6c7280;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+.container-button {
+  float: right;
+}
+#button-daftar {
+  margin: 5px;
+  background-color: #3ec3dc;
+  color: white;
+  font-size: 14px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#button-detail {
+  margin: 5px;
+  background-color: white;
+  border: 1px solid #3ec3dc;
+  color: #3ec3dc;
+  font-size: 14px;
+  padding: 6px 12px;
+  /* border: none; */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.reason-block {
+  max-width: 1088px;
+  background-color: #234b88;
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  border-radius: 6px;
+  position: relative;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.track {
+  display: flex;
+
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+}
+.card-reason {
+  flex: 1;
+}
+.headline-reason {
+  color: white;
+  margin: 0px 0px 8px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.reason {
+  font-size: 13px;
+  margin: 0px 0px 10px;
+  line-height: 19.5px;
+  font-weight: 400;
+}
+.bootcamp-block {
+  background-color: white;
+  height: 599px;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bootcamp-headline {
+  color: #41454d;
+  text-align: center;
+  /* margin: 10px 0px 8px; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 50px;
+  margin-top: 64px;
+  max-height: 10px;
+  /* padding-top: 10px; */
+}
+
+.bootcamp-subheadline {
+  color: #6c7280;
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.bootcamp-card-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bootcamp-card {
+  /* border: 1px solid black; */
+  height: 387px;
+  max-width: 248px;
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: flex-end; */
+}
+.bootcamp-card-img {
+  align-items: center;
+  justify-content: center;
+  height: 146px;
+  /* border: 1px solid black; */
+}
+.bootcamp-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 8px 8px;
+}
+.bootcamp-card-overline {
+  font-size: 10px;
+  color: #818999;
+  margin: 16px 0px 4px;
+}
+.bootcamp-card-highlight {
+  color: #2761ba;
+  margin-bottom: 6px;
+  font-size: 19px;
+  font-weight: 500;
+
+  margin-top: 0px;
+}
+.bootcamp-arrow {
+  max-height: 25px;
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bootcamp-card-text {
+  font-size: 13px;
+  color: #6c7280;
+  margin-top: 10px;
+}
+.bootcamp-button {
+  max-width: 153px;
+  margin-top: 0;
+  width: 100%;
+  height: 44px;
+  background-color: #2761ba;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  font-size: 13px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
